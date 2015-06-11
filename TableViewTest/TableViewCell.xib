@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="Cell" id="iN0-l3-epB" userLabel="Cell" customClass="CustomTableViewCell" customModule="TableViewTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yht-m9-XRB">
+                    <rect key="frame" x="285" y="0.0" width="30" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.36802992330000001" blue="0.36512428740000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="IET-7H-Fei"/>
+                        <constraint firstAttribute="width" constant="30" id="cRW-O0-Upx"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSI-f9-oyq">
+                    <rect key="frame" x="0.0" y="30" width="600" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DSI-f9-oyq" firstAttribute="top" secondItem="yht-m9-XRB" secondAttribute="bottom" id="6br-95-iYx"/>
+                <constraint firstItem="DSI-f9-oyq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UcC-qy-M1R"/>
+                <constraint firstItem="yht-m9-XRB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UeV-eW-alC"/>
+                <constraint firstAttribute="centerX" secondItem="yht-m9-XRB" secondAttribute="centerX" id="Wr4-Ve-2fx"/>
+                <constraint firstAttribute="trailing" secondItem="DSI-f9-oyq" secondAttribute="trailing" id="wkJ-P3-ccg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="label" destination="DSI-f9-oyq" id="5R3-y6-JlS"/>
+            </connections>
+        </view>
+    </objects>
+</document>

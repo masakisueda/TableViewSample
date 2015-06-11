@@ -13,6 +13,7 @@
 		9E468F1A1B298D87004E6366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E468F191B298D87004E6366 /* Images.xcassets */; };
 		9E468F1D1B298D87004E6366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E468F1B1B298D87004E6366 /* LaunchScreen.xib */; };
 		9E468F291B298D87004E6366 /* TableViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E468F281B298D87004E6366 /* TableViewTestTests.swift */; };
+		9E82812C1B29957B00E44DA9 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E468F321B298D97004E6366 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9E468F221B298D87004E6366 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E468F271B298D87004E6366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E468F281B298D87004E6366 /* TableViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTestTests.swift; sourceTree = "<group>"; };
+		9E468F321B298D97004E6366 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				9E468F191B298D87004E6366 /* Images.xcassets */,
 				9E468F1B1B298D87004E6366 /* LaunchScreen.xib */,
 				9E468F101B298D87004E6366 /* Supporting Files */,
+				9E468F321B298D97004E6366 /* TableViewCell.xib */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E468F181B298D87004E6366 /* Main.storyboard in Resources */,
+				9E82812C1B29957B00E44DA9 /* TableViewCell.xib in Resources */,
 				9E468F1D1B298D87004E6366 /* LaunchScreen.xib in Resources */,
 				9E468F1A1B298D87004E6366 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				9E468F2E1B298D87004E6366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E468F2F1B298D87004E6366 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				9E468F311B298D87004E6366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

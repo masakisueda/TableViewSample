@@ -1,0 +1,5 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.49.3 clang-clang-602.0.49)"
+options: "2aa45c4df2974752d3d9aa563f8d19b0"
+inputs: 
+- "/Users/a13211/com/github/UILabelAnimation/TableViewTest/TableViewTest/ViewController.swift"
+- "/Users/a13211/com/github/UILabelAnimation/TableViewTest/TableViewTest/AppDelegate.swift"
